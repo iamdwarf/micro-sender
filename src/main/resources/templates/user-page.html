@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Page</title>
+</head>
+<body>
+    <h1>User Page</h1>
+    <hgroup>
+        <label>user name</label>
+        <span th:text="${user.name}"></span>
+    </hgroup>
+    <hgroup>
+        <label>user surname</label>
+        <span th:text="${user.surname}"></span>
+    </hgroup>
+    <hgroup>
+        <label>user message</label>
+        <span th:value="${user.message}"></span>
+    </hgroup>
+</body>
+</html>
