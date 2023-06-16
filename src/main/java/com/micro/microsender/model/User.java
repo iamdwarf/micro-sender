@@ -2,9 +2,7 @@ package com.micro.microsender.model;
 
 import org.springframework.stereotype.Component;
 
-@Component
 public class User {
-
     private String name;
     private String surname;
     private String message;

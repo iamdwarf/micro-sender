@@ -8,7 +8,11 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
-@ComponentScan(basePackages = {"com.micro.microsender.controller", "com.micro.microsender.service", "com.micro.microsender.component", "com.micro.microsender.config"})
+@ComponentScan(basePackages = {
+        "com.micro.microsender.controller",
+        "com.micro.microsender.service",
+        "com.micro.microsender.component",
+        "com.micro.microsender.config"})
 @SpringBootApplication
 public class MicroSenderApplication implements ApplicationRunner {
 
